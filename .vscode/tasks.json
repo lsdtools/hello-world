@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "LSD: Run tool",
+      "type": "shell",
+      "command": "lsdtools python ${workspaceFolder}/src/lsdtools_hello_world/tool.py",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "LSD: Open in a window",
+      "type": "shell",
+      "command": "lsdtools python ${workspaceFolder}/src/lsdtools_hello_world/tool.py --window",
+      "problemMatcher": []
+    },
+    {
+      "label": "LSD: Test",
+      "type": "shell",
+      "command": "lsdtools python ${workspaceFolder}/tests/test_hello_world.py",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "LSD: Link this package",
+      "type": "shell",
+      "command": "lsdtools install -e ${workspaceFolder}",
+      "problemMatcher": []
+    }
+  ]
+}

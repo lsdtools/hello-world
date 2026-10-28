@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "LSD: Debug package tool",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/lsdtools_hello_world/tool.py",
+      "console": "integratedTerminal",
+      "justMyCode": false
+    }
+  ]
+}

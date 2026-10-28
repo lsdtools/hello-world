@@ -1,0 +1,17 @@
+{
+  "_schema_version": 1,
+  "name": "lsdtools/hello-world",
+  "display_name": "Hello World",
+  "version": "1.0.0",
+  "description": "Hello World package for lsd",
+  "author": "",
+  "publisher": "",
+  "keywords": [],
+  "min_lsd": "1.0.0",
+  "dependencies": {},
+  "runtime_dependencies": {},
+  "tier": "domain",
+  "category": "app",
+  "tool": "tool",
+  "paid": false
+}
